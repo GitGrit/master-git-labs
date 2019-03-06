@@ -7,4 +7,4 @@
 * [Part 4: Branches & Conflicts](labs/4.md)
 * [Part 5: Fixing Bad Mistakes](labs/5.md)
 * [Part 6: Team Workflows & Releases](labs/6.md)
-* [Part 7: Advanced Techniques](labs/7.md)
+* [Extra credit: Advanced Techniques](labs/7.md)
