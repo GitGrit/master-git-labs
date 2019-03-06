@@ -7,19 +7,21 @@
     "doc": "docs"
   },
   "dependencies": {
-    "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "express": "^4.15.2",
+    "gitbook-plugin-anchors": "0.7.1",
+    "gitbook-plugin-codeblock-label": "1.0.1",
     "gitbook-plugin-custom-favicon": "0.0.4",
-    "gitbook-plugin-hints": "^1.0.2",
-    "gitbook-plugin-sectionx": "^3.1.0"
+    "gitbook-plugin-hints": "1.0.2",
+    "gitbook-plugin-sectionx": "3.1.0"
   },
   "devDependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "2.3.2"
   },
   "scripts": {
-    "docs:install": "gitbook install",
-    "docs:build": "gitbook build",
-    "start": "gitbook serve"
+    "build": "gitbook build",
+    "serve:book": "gitbook serve",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/GitGrit/MasterGitInADayWorksheetLabs/issues"
   },
-  "homepage": "https://github.com/GitGrit/MasterGitInADayWorksheetLabs#readme"
+  "homepage": "https://github.com/GitGrit/MasterGitInADayWorksheetLabs#readme",
+  "engines": {
+    "node": "10.x"
+  }
 }
