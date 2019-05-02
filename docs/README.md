@@ -8,7 +8,7 @@
 ### Overview
 
 {% hint style='tip' %}
-Before you begin, ensure you have installed and configured [The Tools](http://bit.ly/MasterGit-TheToolss).
+Before you begin, ensure you have installed and configured [The Tools](http://bit.ly/MasterGit-TheTools).
 {% endhint %}
 
 Welcome to the Master Git in a Day labs!  Please work through the labs at the end of each corresponding part.
